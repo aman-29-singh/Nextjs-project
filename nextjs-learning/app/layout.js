@@ -55,8 +55,10 @@ function RootLayout({children}){
   return(
     <html>
       <body>
-        <Navigation/>
+        {/* <Navigation/> */}
+        {/* <header style={{backgroundColor:"green", }} >rOOT APP HEADER</header> */}
         {children}
+        {/* <footer style={{backgroundColor:"brown"}}>Root app footer</footer> */}
       </body>
     </html>
   )

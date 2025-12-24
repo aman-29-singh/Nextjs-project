@@ -10,6 +10,15 @@
  * koi bhi <html> ya <body> tag ka use karne ki jarurat nhi hai 
  */
 
+/**so ye layout.js pehle services folder main tha isliye above comments mein humne iske baare
+ *  mein likha hai but abb ye (marketing) folder k andar hai so ye layout.js automatically kaam
+ * karne lagega woh sab folder i.e pages k upar jo folder and pages (marketing) folder k andar
+ * hai i.e blog and services folder k upar ye (marketing) wala layout kaam karega 
+ * aur (users) folder group mein humne uss (users) group k liye uske andar alag se layout.js banayaa
+ * hai toh (users) group ka layout.js ye uss (users) group k upar kaam karega  */
+ 
+/**so this is a Group routing */
+
 
 function serviceLayout({children}) {
     return (
