@@ -30,6 +30,27 @@ import Navigation from "@/components/Navigation"
 //   );
 // }
 
+
+// export const metadata = {
+//   title: 'my-project',
+//   description: '...',
+// }
+
+
+export const metadata = {
+  title: {
+    template: '%s | learning-nextjs',
+    /***so ye "%s" ki help se jo bhi metadata ka title hum kisi individual page  mein denge
+     * woh title iss %s ki jagah aajayega aur agar kisi page mein metadata nhi hoga toh udhar
+     * title mein default:"my-project" aajayega
+      */
+    default: 'myproject', // a default is required when creating a template
+  },
+}
+
+
+
+
 function RootLayout({children}){
   return(
     <html>
